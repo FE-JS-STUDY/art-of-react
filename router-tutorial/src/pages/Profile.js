@@ -12,7 +12,7 @@ const data = {
 };
 
 const Profile = () => {
-  // URL 파라미터는 useParams라는 Hook 사용하여 객체 형태로 조회 가능
+  // URL 파라미터는 useParams라는 Hook 사용하여 객체 형태로 조회
   const params = useParams();
   const profile = data[params.username];
 
