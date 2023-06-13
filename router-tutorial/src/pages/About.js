@@ -15,7 +15,8 @@ const About = () => {
   };
 
   const onIncreaseMode = () => {
-    const nextMode = mode === null ? 1 : parseInt(mode) + 1;
+    console.log(mode);
+    const nextMode = mode === "null" ? 1 : parseInt(mode) + 1;
     setSearchParams({ mode: nextMode, detail });
   };
   return (
