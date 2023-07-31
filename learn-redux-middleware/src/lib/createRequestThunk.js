@@ -23,5 +23,5 @@ export default function createRequestThunk(type, request) {
       dispatch(startLoading(type));
       throw e;
     }
-  };
+  };                                                                                                                    
 }
